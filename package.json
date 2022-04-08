@@ -1,7 +1,7 @@
 {
   "name": "vscode-graphql-tag",
   "displayName": "GraphQL",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "",
   "categories": [
@@ -45,6 +45,22 @@
         "path": "./grammars/graphql.js.json",
         "embeddedLanguages": {
           "meta.embedded.block.graphql": "graphql"
+        }
+      },
+      {
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte"
+        ],
+        "scopeName": "inline.graphql.reinjection",
+        "path": "./grammars/graphql.js.reinjection.json",
+        "embeddedLanguages": {
+          "meta.template.expression.ts": "typescript"
         }
       }
     ]

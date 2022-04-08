@@ -1,0 +1,10 @@
+{
+  "fileTypes": ["js", "jsx", "mjs", "cjs", "es6", "es", "esm", "ts", "tsx", "vue", "svelte"],
+  "injectionSelector": "L:source meta.embedded.block.graphql",
+  "patterns": [
+    {
+      "include": "source.ts#template-substitution-element"
+    }
+  ],
+  "scopeName": "inline.graphql.reinjection"
+}
