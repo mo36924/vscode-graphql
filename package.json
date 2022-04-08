@@ -1,5 +1,5 @@
 {
-  "name": "vscode-graphql",
+  "name": "vscode-graphql-tag",
   "displayName": "GraphQL",
   "version": "0.0.1",
   "private": true,
@@ -25,6 +25,8 @@
     "format": "run-s format:*",
     "format:sort-package-json": "sort-package-json",
     "format:prettier": "prettier --write .",
+    "publish": "run-s format publish:*",
+    "publish:vsce": "vsce publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributes": {
