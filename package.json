@@ -1,7 +1,7 @@
 {
   "name": "vscode-graphql-tag",
   "displayName": "GraphQL",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "",
   "categories": [
